@@ -1,0 +1,93 @@
+
+/*Section 1*/
+.bg {
+    background-color: white;
+    text-align: center;
+    padding: 19px;
+    transition: box-shadow 0.3s ease; 
+    margin-bottom: 0px;
+}
+
+.bg:hover {
+    box-shadow: 0 8px 20px #ff9800; 
+}
+
+.bg:hover h2 {
+    color: #ff9800;
+}
+
+.bg:hover p {
+    color: #555;
+}
+
+.custom-css {
+    border-radius: 10px;
+    padding: 7px 29px;
+    background: #ff9800 !important;
+    border-color: #ff9800;
+    
+  }
+.custom-css:hover{
+    background: #efeeed !important;
+    border-color: #ff9800;
+    color: black;
+}
+
+/*section 2*/
+
+.card {
+    border: none; 
+    transition: transform 0.3s; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.card-text{
+    text-align: center;
+}
+
+/* Description */
+.description {
+
+    background-color: black;
+    color: white;
+}
+
+.description1 {
+    margin: 0px 20px;
+    padding: 50px 10px;
+}
+
+.gettouch {
+    text-align: end !important;
+}
+.image-logo{
+    width: 150px;
+    height: 90px;
+}
+
+/*footer*/
+footer {
+    background: #000;
+    padding: 7px 0px;
+    text-align: center;
+}
+
+.links-media2 i {
+    background: #fff;
+    padding: 5px;
+    font-size: 16px;
+}
+
+@media (max-width:576px) {
+    .gettouch {
+        text-align: center !important;
+    }
+    .bg {
+        margin-bottom: 20px;
+    }
+
+    
+}
